@@ -1,0 +1,723 @@
+
+@media screen and (max-width: 479px) {
+
+
+
+	p {
+		text-align: center;
+		font-size: calc(4px + 3.2vw);
+		line-height: 6vw;
+	}
+
+
+	.br1 {
+		display: none; 
+	}
+
+	.br2 {
+		display: flex;
+	}
+
+
+
+
+
+	h1 {
+		text-align: center;
+		font-size: 25rem;
+		letter-spacing: -2.7px;
+	}
+
+	h2 {
+		text-align: center;
+		margin-left: 0;
+
+		font-size: 12rem;
+		letter-spacing: -2.5px;
+	}
+
+	h3 {
+		margin-top: 0px;
+
+		font-size: 64px;
+	}
+
+	h4 {
+		text-align: center;
+		margin-top: calc(-24.2vw + 10px);
+
+		font-size: 5.3rem;
+		letter-spacing: -0.6px;
+		line-height: calc(5vw + 5px);
+	}
+
+	h5 {
+		text-align: center;
+
+		font-size: 8rem;
+		letter-spacing: -1.8px;
+	}
+
+	h6 {
+		margin-top: -68px;
+
+		font-size: 25px;
+		letter-spacing: -1px;
+	}
+
+
+
+	/* Tous les liens de la page */
+
+	/* buton hero */
+	.read_more {
+		margin-right: 8vw;
+		margin-left: 8vw;
+		padding-left: auto;
+		padding-right: auto;
+
+		display: flex;
+		justify-content: center;
+	}
+	/* button hero */
+
+	/* View project */
+	.view_project {
+		margin-right: 8vw;
+		margin-left: 8vw;
+		padding-left: auto;
+		padding-right: auto;
+
+		display: flex;
+		justify-content: center;
+		position: static;
+	}
+
+	.outsideLink {
+		margin-right: 8vw;
+		margin-left: 8vw;
+		padding-left: auto;
+		padding-right: auto;
+
+		display: flex;
+		justify-content: center;
+	}
+
+
+	/* View project */
+
+	/* Get in touch */
+	.get_in_touch {
+		margin-right: 8vw;
+		margin-left: 8vw;
+		padding-left: auto;
+		padding-right: auto;
+		
+		display: flex;
+		justify-content: center;
+	}
+	/* Get in touch */
+	/* Tous les liens de la page */
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------*/
+
+				/*Page d'accueuil "What if"*/
+
+/*-----------------------------------------------------*/
+
+	/* 2. What if */
+	header {
+		display: flex;
+		width: 100%;
+	}
+
+	header div {
+		position: absolute;
+		margin-top: 43vw;
+		margin-left: 0%;
+		width: 100%;
+		z-index: 1
+	}
+
+	header div img {
+		margin-top: 5vw;
+		margin-bottom: 5vw;
+		margin-left: 42vw;
+		width: 10vw;
+	}
+
+	.crayons {
+		position: absolute;
+		margin-top: 24vw;
+		margin-bottom: 0%;
+		margin-left: 20vw;
+		width: 64vw;
+		height: 75vw;
+		opacity: 0.4;
+	}
+	/* 2. What if */
+
+
+	/* 3. Principes */
+	#why {
+		max-width: 100%;
+		margin-bottom: 90px;
+	}
+
+	#why img {
+		float: right;
+		margin-right: 47%;
+		margin-left: 43%;
+		width: 10%;
+		height: 16vw;
+
+		z-index: -4;
+	}
+
+	#why p {
+		float: right;
+		text-align: center;
+		margin-top: -14vw;
+		margin-right: 8%;
+		margin-left: 8%;
+		width: 84%;
+
+		font-size: 350%;
+		letter-spacing: 1%;
+	}
+
+	.principes {
+		margin-bottom: 0;
+		max-width: 100%;
+	}
+
+	.principes div {
+		padding: 0;
+		margin-bottom: 30px;
+	}
+
+	.principes div p {
+		margin-top: -40px;
+	}
+	/* 3. Principes */
+
+
+
+	/* 4. Logo Design */
+	.logo_design {
+		min-width: 100%;
+		height: calc(100px + 100ch);
+
+		background-size: 145%;
+		background-repeat: no-repeat;
+
+		background-image: url("../img/fabiola_radio_rectangle_mobile@2x.png");
+		background-opacity: 0.5;
+	}
+
+	.logo_design h5 {
+		margin-top: calc(-17vw + 20px);
+	}
+
+	.logo_design div {
+		margin-top: 9vw;
+		margin-left: 0;
+		max-width: 100%;
+	}
+
+	.logo_design p {
+		margin-top: 4vw;
+		margin-bottom: 2vw;
+	}
+
+	.fabiola {
+		float: none;
+		margin-bottom: 0;
+		margin-left: 0;
+		width: 0;
+	}
+	/* 4. Logo Design */
+
+
+
+	/* 5. Website */
+	.website {
+		min-width: 100%;
+		height: calc(100px + 95ch);
+
+		background-size: 145%;
+		background-repeat: no-repeat;
+		background-position-x: 125%;
+
+		background-image: url("../img/tedx_bg_mobile@2x.png");
+	}
+
+	.tedx {
+		float: none;
+		margin-bottom: 0;
+		margin-left: 0;
+		width: 0;
+	}
+
+	.bloc {
+		float: none;
+		margin-top: 4vw;
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.z {
+		text-align: center;
+		margin-top: calc(-17vw + 20px);
+		margin-left: 0;
+	}
+
+	.website p {
+		margin-top: 4vw;
+		margin-bottom: 2vw;
+	}
+	/* 5. Website */
+
+
+
+	/* 6. Branding */
+	.branding {
+		min-width: 100%;
+		height: calc(35px + 150ch);
+
+		background-size: 200%;
+		background-repeat: no-repeat;
+		background-position-x: 1%;
+		background-position-y: -12vw;
+
+		background-image: url("../img/unamur_bg_mobile.png");
+	}
+
+	.branding div{
+		margin-top: 7vw;
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.branding h5 {
+		margin-top: calc(-17vw + 20px);
+	}
+
+	.branding p {
+		margin-top: 4vw;
+		margin-bottom: 2vw;
+	}
+
+	.unamur {
+		float: none;
+		margin-bottom: 0;
+		margin-left: 0;
+		width: 0;
+	}
+	/* 6. Branding */
+
+
+
+	/* 7. Let's make something great */
+	.shadow-bottom {
+		width: 100%;
+		margin-top: 1px;
+	}
+
+	.let {
+		max-width: 100%;
+		min-width: 100%;
+		margin-bottom: 8vw;
+	}
+
+	.crayon {
+		float: none;
+		width: 0;
+	}
+
+	.make {
+		margin-left: -2%;
+		max-width: 100%;
+	}
+
+	.make h2 {
+		line-height: calc(37.5px + 0.675vw);
+		font-size: 11rem;
+	}
+
+	.for {
+		line-height: 8vw;
+	}
+
+	.how {
+		text-align: left;
+		margin-top: calc(22px + 1vw);
+		margin-left: 7vw;
+
+		font-size: 4.85vw;
+		letter-spacing: 0px;
+	}
+
+	.ol {
+		margin-bottom: 8vw;
+		margin-left: 0px;
+
+		padding-left: calc(15px + 8vw);
+		font-size: calc(4px + 3.2vw);
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	.reseaux {
+		max-width: 100%;
+
+		flex-direction: column;
+	}
+
+	.reseaux a {
+		width: 100%;
+	}
+
+	.let {
+		background-image: none;
+		}
+
+	.espace {
+		width: 95%;
+		height: 100px;
+	}
+
+	.make p {
+		text-align: left;
+		margin-left: 40px;
+	}
+
+	.make h2 {
+		margin-bottom: 20px;
+	}
+
+	.espaceReseaux {
+		margin: 10px 0px 10px 0px;
+	}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------*/
+
+				/*La Semaine Belge*/
+
+/*-----------------------------------------------------*/
+
+	.rectangleHero {
+		background-position: 52%;
+	}
+
+	.row {
+		max-width: 100%;
+		min-width: 100%;
+		justify-content: center;
+	}
+
+	.powder2 {
+		margin-top: 0px;
+		position: static;
+	}
+
+	.client {
+		position: normal;
+		float: none;
+		max-width: 98%;
+		margin-left: 0px;
+	}
+
+	.modern {
+		max-width: 90vw;
+	}
+
+	.blue {
+		margin-bottom: 15px;
+	}
+
+	.logo-lsb2 {
+		position: relative;
+		max-width: 80%;
+		margin-left: 5%;
+	}
+
+	.div_rectangle {
+		margin-top: 15vw;
+		margin-bottom: 15vw;
+	}
+
+	.rectangle {
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 12px;
+	}
+
+	.a_better_version_of_yourself {
+		margin-bottom: 2px;
+		width: 100%;
+		min-height: 30vw;
+	}
+
+	.demain_awards {
+		margin-bottom: 12vw;
+		width: 100%;
+		min-height: 30vw;
+	}
+
+	.h4_more_projects {
+		margin-top: 8vw;
+		font-size: 7vw;
+	}
+
+	.p_more_projects {
+		margin-top: 3vw;
+		font-size: 5vw;
+	}
+
+	.printed1:hover, .printed2:hover, .printed3:hover {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------*/
+
+				/*TedXUnamur*/
+
+/*-----------------------------------------------------*/
+
+
+	.tedx-sticker2 {
+		margin-top: 0px;
+		position: static;
+	}
+
+	.tedx-event {
+		display: none;
+	}
+
+	.tedx--ipad {
+		width: 45%;
+		margin-top: 13%;
+		margin-left: 44%;
+		float: left;
+
+		z-index: -2;
+	}
+
+	.tedx--macbook {
+		width: 70%;
+		float: left;
+		margin-left: 10%;
+		margin-top: -36%;
+
+		z-index: -3;
+	}
+
+	.tedx--iphone {
+		width: 40%;
+		float: left;
+		margin-left: 55%;
+		margin-top: -24%;
+	}
+
+	.responsive {
+		position: relative;
+		text-align: center;
+		z-index: 5;
+		width: 100%;
+		float: none;
+		clear: right;
+	}
+
+	.tedx-goodies2 {
+		width: 90vw;
+		max-width: 600px;
+		min-width: 200px;
+		float: none;
+	}
+
+	.tedx-computer {
+		width: 90%;
+		margin-top: 0px;
+		margin-left: 9%;
+	}
+
+	video {
+		margin-top: -49vw;
+		height: 40vw;
+	}
+
+	.la_semaine_belge {
+		margin-bottom: 2px;
+		width: 100%;
+		min-height: 30vw;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------*/
+
+				/*Demain*/
+
+/*-----------------------------------------------------*/
+
+.demainHero {
+	background-position-x: right;
+}
+
+.demain-fleur2 {
+	width: 100%;
+	margin-left: 0;
+}
+
+.demain-ceremony2 {
+	width: 100%;
+}
+
+.animation-ecrans-demain2 {
+	width: 90%;
+	margin-top: 3vw;
+	margin-left: 7vw;
+}
+
+.demain-on-paper2 {
+	width: 90vw;
+	max-width: 1000px;
+	min-width: 100px;
+	float: none;
+}
+
+.a_better_version_of_yourself-Right {
+	margin-bottom: 12vw;
+	width: 100%;
+	min-height: 30vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

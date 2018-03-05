@@ -1,0 +1,802 @@
+@media screen and (max-width: 991px) {
+
+	p {
+		line-height: 30px;
+	}
+
+	h1 {
+		font-size: 18.8rem;
+		letter-spacing: -7.3px;
+	}
+
+	h2 {
+		margin-top: -5px;
+		margin-left: -5px;
+
+		font-size: 7.5rem;
+		letter-spacing: -2px;
+	}
+
+	h3 {
+		margin-top: 0px;
+
+		font-size: 64px;
+	}
+
+	h4 {
+		margin-top: calc(-18vw + 27px);
+
+		font-size: 4.22rem;
+		letter-spacing: -1.1px;
+		line-height: 4.4vw;
+	}
+
+	h5 {
+		margin-bottom: 1px;
+
+		font-size: 4.37rem;
+		letter-spacing: -1.8px;
+	}
+
+	h6 {
+		margin-top: -68px;
+
+		font-size: 25px;
+		letter-spacing: -1px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------*/
+
+				/*Page d'accueuil "What if"*/
+
+/*-----------------------------------------------------*/
+
+	/* 2. What if */
+	header {
+		background-image: none;
+	}
+
+	header div {
+		position: relative;
+		margin-top: calc(2vw + 300px);
+		margin-left: 6vw;
+		width: 91vw;
+	}
+
+	header div img {
+		margin-top: calc(12px + 1vw);
+		margin-bottom: 0.5vw;
+		width: 50px;
+	}
+
+	.crayons {
+		width: 37.5vw;
+		margin-top: calc(-400px);
+		margin-left: 62.5vw;
+	}
+	/* 2. What if */
+
+
+
+	/* 3. Principes */
+	#why {
+		max-width: 300px;
+		margin-bottom: 50px;
+	}
+
+	#why img {
+		margin-top: 0px;
+		margin-left: 128px;
+
+		width: 30px;
+		height: 50px;
+	}
+
+	#why p {
+		font-size: 13.9px;
+		padding-top: 15px;
+		letter-spacing: 4.1px;
+	}
+
+	.principes {
+		margin-bottom: 50px;
+		min-width: 300px;
+
+		flex-direction: column;
+		align-items: center;
+	}
+
+	/* 4. Logo Design */
+	.logo_design {
+		min-width: 100%;
+	}
+
+	.logo_design h5 {
+		margin-top: calc(-8.5vw + 10px);
+	}
+
+	.logo_design div {
+		position: none;
+		margin-top: 2.6vw;
+		margin-left: 7vw;
+		max-width: calc(100vw - 60px);
+	}
+
+	.logo_design p {
+		margin-top: 0.5vw;
+		margin-bottom: 2.2vw;
+	}
+
+	.fabiola {
+		float: none;
+		margin-bottom: 60px;
+		margin-left: 25vw;
+		width: 68vw;
+	}
+
+	.b {
+		margin-top: 0;
+		margin-right: 0;
+		width: 0;
+	}
+
+	.s {
+		margin-top: 0;
+		margin-right: 0;
+		width: 0;
+	}
+
+	.cd {
+		margin-top: 0;
+		margin-left: 0;
+		width: 0;
+	}
+	/* 4. Logo Design */
+
+
+
+	/* 5. Website */
+	.website {
+		min-width: 100%;
+		height: calc(33vw + 100px);
+	}
+
+	.macbook {
+		margin-top: 0;
+		margin-left: 0;
+		width: 0;
+	}
+
+	.tedx {
+		margin-left: -10%;
+		width: 75vw;
+
+		z-index: -4;
+	}
+
+	.ipad {
+		margin-top: 0;
+		margin-left: 0;
+		width: 0;
+	}
+
+	.iphone {
+		margin-top: 0;
+		margin-left: 0;
+		width: 0;
+	}
+
+	.bloc {
+		margin-top: -31%;
+		margin-left: 7vw;
+		max-width: calc(460px - 5vw);
+	}
+
+	.z {
+		margin-top: calc(-24px - 1.95vw);
+		margin-left: -4px;
+
+		font-family: BondarOffice-Regular;
+		font-size:calc(20px + 0.4vw);
+	}
+
+	.z span {
+		color: red;
+		font-family: BondarOffice-Bold;
+	}
+
+	.website p {
+		margin-top: 2vw;
+		margin-bottom: 2.6vw;
+	}
+	/* 5. Website */
+
+
+
+	/* 6. Branding */
+	.branding {
+		min-width: 100%;
+	}
+
+	.branding div{
+		position: none;
+		margin-left: 7vw;
+		width: 430px;
+	}
+
+	.branding h5 {
+		margin-top: calc(-8.5vw + 10px);
+	}
+
+	.branding p {
+		margin-top: 1vw;
+	}
+
+	.animation {
+		margin-top: 0;
+		margin-right: 0;
+		width: 0;
+	}
+
+	.unamur {
+		float: none;
+		margin-top: 0%;
+		margin-right: 0%;
+		margin-bottom: 60px;
+		margin-left: 21vw;
+		width: 75vw;
+	}
+
+	.cartes {
+		margin-top: 0;
+		margin-left: 0;
+		width: 0;
+	}
+
+	/* 7. Let's make something great */
+	.let {
+		margin-bottom: 15vw;
+		min-width: 600px;
+	}
+
+	.crayon {
+		margin-left: 0%;
+	}
+
+	.make {
+		min-width: 61vw;
+	}
+
+	.for {
+		margin-top: -3vw;
+	}
+
+	.how {
+		margin-top: calc(40px - 2vw);
+	}
+
+	.ol {
+		margin-bottom: calc(50px - 2vw);
+	}
+
+
+	@media only screen and (max-width : 630px) {
+
+		/* 7. Let's make something great */
+		.make .br1 {
+			display: none;
+		}
+
+		.make .br2 {
+			display: flex;
+		}
+
+		.let {
+			max-width: 100%;
+			min-width: 100%;
+			margin-bottom: 8vw;
+		}
+
+		.crayon {
+			float: none;
+			width: 0;
+		}
+
+		.make {
+			margin-left: -2%;
+			min-width: 100%;
+		}
+
+		.make h2 {
+			margin-left: 7vw;
+
+			line-height: calc(37.5px + 0.675vw);
+		}
+
+		.for {
+			margin-left: 7vw;
+		}
+
+		.how {
+			margin-top: calc(22px + 1vw);
+			margin-left: 7vw;
+		}
+
+		.get_in_touch {
+			margin-left: 7vw;
+		}
+
+		.reseaux {
+			margin-bottom: 5vw;
+		}
+
+
+	}
+
+
+
+
+
+	footer {
+		margin-top: 5vw;
+	}
+
+	.reseaux {
+		margin-bottom: 3vw;
+	}
+
+	.read_more, .view_project, .get_in_touch, .outsideLink, .rectangle {
+	background-color: #F3C8DC;
+	color: black;
+	}
+
+
+	.read_more:hover, .view_project:hover, .get_in_touch:hover, .outsideLink:hover {
+	background-color: #F3C8DC;
+	color: black;
+	box-shadow: none;
+	}
+
+	.read_more:active, .view_project:active, .get_in_touch:active, .outsideLink:active {
+	background-color: transparent;
+	color: white;
+	}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------*/
+
+				/*La Semaine Belge*/
+
+/*-----------------------------------------------------*/
+
+	.row {
+		max-width: 100%;
+		min-width: 100%;
+	}
+
+	.powder2 {
+		margin-top: 0px;
+		position: static;
+	}
+
+	.logo-lsb {
+		margin-top: 150px;
+	}
+
+	.modern {
+		margin-left: 7.5%;
+	}
+
+	.printed1 {
+		width: 25%;
+		float: left;
+		margin-left: 7.5%;
+	}
+
+	.printed2 {
+		width: 25%;
+		float: left;
+		margin-left: 5%;
+		margin-top: 0%;
+	}
+
+	.printed3 {
+		width: 25%;
+		float: left;
+		margin-left: 5%;
+		margin-top: 0%;
+	}
+
+	.printed1:hover, .printed2:hover, .printed3:hover {
+		width: 30%;
+	}
+
+	.whatnot {
+		width: 92.5%;
+		float: left;
+		margin-left: 7.5%;
+
+	}
+
+	.a_better_version_of_yourself {
+		height: 10vw;
+	}
+
+	.demain_awards {
+		height: 10vw;
+	}
+
+	.h4_more_projects {
+		margin-top: 4%;
+		font-size: 3.5vw;
+	}
+
+	.p_more_projects {
+		margin-top: -2%;
+		font-size: 2vw;
+	}
+
+	@media (max-width: 767px) {
+
+		/*Hamburger Appear*/
+		.toggle-button {
+		visibility: visible;
+		}
+		/*Hamburger Appear*/
+
+		.client {
+			position: normal;
+			float: none;
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.modern {
+			max-width: 90vw;
+			position: normal;
+			float: none;
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+			
+		}
+
+		.whatnot {
+			width: 100%;
+			float: left;
+			margin-left: 0%;
+			text-align: center;
+			margin-bottom: 4vw;
+
+		}
+
+		.printed1 {
+			width: 50%;
+			float: none;
+			margin-left: 25%;
+			margin-bottom: 10px;
+		}
+
+		.printed2 {
+			width: 50%;
+			float: none;
+			margin-left: 25%;
+			margin-top: 0%;
+			margin-bottom: 8px;
+		}
+
+		.printed3 {
+			width: 50%;
+			float: none;
+			margin-left: 25%;
+			margin-top: 0%;
+		}
+
+		.printed1:hover, .printed2:hover, .printed3:hover {
+			width: 80%;
+			margin-left: 10%;
+		}
+
+		.h4_more_projects {
+			margin-top: 4%;
+			color: white;
+			font-size: 2vw;
+		}
+
+		.p_more_projects {
+			margin-top: 0;
+			font-size: 1.3vw;
+		}
+
+
+
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------*/
+
+				/*TedXUnamur*/
+
+/*-----------------------------------------------------*/
+
+
+
+	.animation-sticker.gif2 {
+		margin-top: 0px;
+		margin-left: 0px;
+		width: 30vw;
+		min-width: 200px;
+		float: none;
+	}
+
+	.cacher_texte {
+		display: none;
+	}
+
+	.tedx--ipad {
+		width: 25%;
+		margin-top: 13%;
+		margin-left: 24%;
+		float: left;
+
+		z-index: -2;
+	}
+
+	.tedx--macbook {
+		width: 45%;
+		float: left;
+		margin-left: -47%;
+		margin-top: 4%;
+
+		z-index: -3;
+	}
+
+	.tedx--iphone {
+		width: 20%;
+		float: left;
+		margin-left: -17%;
+		margin-top: 19%;
+	}
+
+	.div_tedx-goodies2 {
+		text-align: center;
+	}
+
+	.tedx-computer {
+		width: 80%;
+		margin-top: 100px;
+		margin-left: 14vw;
+	}
+
+	.video--tedx {
+		width: 70vw;
+		height: 35vw;
+		margin-top: -43vw;
+		margin-left: 15vw;
+	}
+
+	.la_semaine_belge {
+		height: 10vw;
+	}
+
+
+
+
+@media (max-width: 767px) {
+
+
+
+		.client {
+			position: relative;
+			float: none;
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.classic {
+			max-width: 90vw;
+			position: relative;
+			float: none;
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.responsive {
+			position: relative;
+			text-align: center;
+			z-index: 5;
+			width: 500px;
+			float: none;
+			margin-left: auto;
+			margin-right: auto;
+			clear: right;
+		}
+
+		.tedx--ipad {
+			width: 45%;
+			margin-top: 13%;
+			margin-left: 44%;
+			float: left;
+
+			z-index: -2;
+		}
+
+		.tedx--macbook {
+			width: 70%;
+			float: left;
+			margin-left: 10%;
+			margin-top: -36%;
+
+			z-index: -3;
+		}
+
+		.tedx--iphone {
+			width: 40%;
+			float: left;
+			margin-left: 55%;
+			margin-top: -24%;
+		}
+
+		.tedx-goodies2 {
+			margin-top: 0%;
+			width: 40vw;
+			max-width: 1000px;
+			min-width: 500px;
+			float: none;
+		}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------*/
+
+				/*Demain*/
+
+/*-----------------------------------------------------*/
+
+.demain-fleur2 {
+	width: 45vw;
+	margin-left: 25vw;
+}
+
+.demain-ceremony2 {
+	height: 55vw;
+	background-image: url("../img/demain-ceremony.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 120%;
+}
+
+.animation-ecrans-demain {
+	width: 48vw;
+	margin-top: 7vw;
+	margin-left: 1vw;
+}
+
+.animation-ecrans-demain2 {
+	width: 70vw;
+	margin-top: 7vw;
+	margin-left: 15vw;
+}
+
+.a_better_version_of_yourself-Right {
+	height: 10vw;
+}
+
+
+
+
+
+
+	@media (max-width: 767px) {
+
+	.alive {
+		position: relative;
+		margin-left: 0;
+		width: 100%;
+		text-align: center;
+	}
+
+	.animation-ecrans-demain2 {
+		margin-top: 0vw;
+	}
+
+	.demain-on-paper2 {
+		margin-top: 0%;
+		width: 40vw;
+		max-width: 1000px;
+		min-width: 470px;
+		float: none;
+	}
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

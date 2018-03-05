@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Ciprian Ciobanasu • Visual Designer</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+		<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+<!-- 	<link rel="stylesheet" type="text/css" href="/css/bootstrap-theme.css"> -->
+
+		<link rel="stylesheet" href="/css/overlay.css">
+
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+
+		<link rel="stylesheet" type="text/css" href="/css/tablet.css">
+
+		<link rel="stylesheet" type="text/css" href="/css/smartphone.css">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body id="overrides">
+		<!-- 1. Navbar Desktop-->
+		<div class="wow fadeIn">
+			<nav class="navbar navbar-default">
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar top-bar"></span>
+			        <span class="icon-bar middle-bar"></span>
+			        <span class="icon-bar bottom-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="http://ciobanasu.be">
+			      	<img alt="Logo" src="/img/ciprian ciobanasu vi.svg">
+			      </a>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-right">
+			        <li><a href="#"><div class="interdit">lab</div></a></li>
+			        <li><a href="http://ciobanasu.be/#work">work</a></li>
+			        <li><a href="http://ciobanasu.be/#contact">contact</a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		</div>
+		<!-- 1. Navbar Desktop-->
+
+
+
+		<!-- 1. Navbar-Mobile-->
+		<nav class="overlay" id="overlay">
+		  <ul>
+		    <li><a href="http://ciobanasu.be">Lab</a></li>
+		    <li><a href="http://ciobanasu.be/#work">Work</a></li>
+		    <li><a href="http://ciobanasu.be/#contact">Contact</a></li>
+		  </ul>
+		</nav>
+
+		<div class="navbar-header">
+		  <div class="toggle-button" id="toggle">
+		    <span class="bar top"></span>
+		    <span class="bar middle"></span>
+		    <span class="bar bottom"></span>
+		  </div>
+		</div>
+		<!-- 1. Navbar Mobile-->
+
+
+
+
+
+		<div class="demainHero">
+			<div class="projectHero">
+				<h5 class="wow fadeInUp titleHero" data-wow-duration=".5s" data-wow-delay=".2s">Doctor Honoris Causa Awards</h5>
+				<h6 class="wow fadeInUp sousTitreHero" data-wow-duration=".5s" data-wow-delay=".4s">visual identity</h6>
+			</div>
+		</div>
+
+		<div class="espace"></div>
+		
+		<div class="row">
+			<img class="wow fadeInUp demain-fleur hidden-xs" data-wow-duration=".5s" data-wow-delay=".2s" src="../img/demain-flower.gif">
+
+			<div class="client">
+				<div class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".4s">
+					<h2>Client</h2>
+					<p>
+						Focused on the needs of society, the six <br>
+						faculties at University of Namur provide <br>
+						solutions for major societal challenges.
+					</p>
+				</div>
+
+				<div class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
+					<h2>Services</h2>
+					<p>
+						The awards ceremony needed a memorable <br>
+						visual identity which is not only clear and <br>
+						concise, but also poetic and colorful.
+					</p>
+				</div>
+
+				<div class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".6s">
+					<h2>Team</h2>
+					<p>
+						Gwenaëlle Bertinchamps, Jacques Neefs, <br>
+						Sophie Arcq, Baptiste Gandibleux, <br>
+						Ciprian Ciobanasu
+					</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="row">
+			<img class="demain-fleur2 hidden-sm hidden-md hidden-lg" src="../img/animation-flower-mobile.gif">
+		</div>
+
+		<div class="espace"></div>
+
+		<div class="row">
+			<div class="classic col-sm-3 col-sm-offset-0 col-md-3 col-md-offset-2">
+				<p class="wow fadeInUp green" data-wow-duration=".5s" data-wow-delay=".4s">
+					— Demain comes today
+				</p>
+
+				<h2 class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
+					The awards
+				</h2>
+
+				<p class="wow fadeInUp description_text" data-wow-duration=".5s" data-wow-delay=".6s">
+					The awards went to Cyril Dion and Mélanie <br class="br2">Laurent, <br class="br1">directors of the film "Demain", as <br class="br2">well as to Rob <br class="br1">Hopkins, founder of the <br class="br2">Transition Movement.
+				</p>				
+			</div>
+
+			<img class="wow fadeInUp demain-ceremony hidden-xs" class="" data-wow-duration=".5s" data-wow-delay=".5s" src="../img/demain-ceremony.png">
+		</div>
+
+		<div class="wow fadeInUp demain-ceremony2 hidden-sm hidden-md hidden-lg" data-wow-duration=".5s" data-wow-delay=".5s">
+		</div>
+
+		<div class="espace"></div>
+
+		<div class="row">
+			<div class="alive">
+				<p class="wow fadeInUp green" data-wow-duration=".5s" data-wow-delay=".9s">
+					— It's alive! It's alive!
+				</p>
+
+				<h2 class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
+					On screens
+				</h2>
+
+				<p class="wow fadeInUp description_text" data-wow-duration=".5s" data-wow-delay="1.1s">
+					Three screens were incorporated to <br class="br2">the recycled <br class="br1">installation, keeping guests <br class="br2">posted throughout the <br class="br1">evening. Animations <br class="br2">travelled from one to another.
+				</p>
+			</div>
+
+			<img class="wow fadeInUp animation-ecrans-demain hidden-xs" data-wow-duration=".5s" data-wow-delay=".2s" src="../img/animation_ecrans_demain.gif">
+
+		</div>
+
+		<div class="row">
+			<img class="wow fadeInUp animation-ecrans-demain2 hidden-sm hidden-md hidden-lg" data-wow-duration=".5s" data-wow-delay=".2s" src="../img/animation_ecrans_demain.gif">
+		</div>
+
+		<div class="espace"></div>
+
+		<div class="row">
+			<div class="modern col-sm-3 col-sm-offset-0 col-md-3 col-md-offset-2">
+				<p class="wow fadeInUp green" data-wow-duration=".5s" data-wow-delay=".4s">
+					— Can touch this
+				</p>
+
+				<h2 class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
+					On paper
+				</h2>
+
+				<p class="wow fadeInUp description_text" data-wow-duration=".5s" data-wow-delay=".6s">
+					I craft posters, brochures and invitations <br class="br2">that work <br class="br1">and look great. Things that help <br class="br2">your guests attend <br class="br1">your event, but also <br class="br2">stays on their fridge for years.
+				</p>			
+			</div>
+
+			<img class="wow fadeInUp demain-on-paper hidden-xs" data-wow-duration=".5s" data-wow-delay=".5s" src="../img/demain-on-paper.png">
+		</div>
+
+		<div class="div_tedx-goodies2">
+			<img class="demain-on-paper2 hidden-sm hidden-md hidden-lg" data-wow-duration=".5s" data-wow-delay=".5s" src="../img/demain-on-paper.png">
+		</div>
+
+		<div class="shadow-bottom">
+			<div class="div_rectangle">
+				<a class="rectangle" href="http://phototheque.unamur.be/evenements/dhc-2016/" target="_blanc">see more from the event</a>
+			</div>
+
+			<a href="radiorectangle">
+				<div class="la_semaine_belge">
+					<h4 class="h4_more_projects">
+						La Semaine Belge
+					</h4>
+
+					<p class="p_more_projects">
+						Radio Rectangle
+					</p>
+				</div>
+			</a>
+
+			<a href="tedx">
+				<div class="a_better_version_of_yourself-Right">
+					<h4 class="h4_more_projects">
+						A better version of yourself
+					</h4>
+
+					<p class="p_more_projects">
+						TEDxUNamur
+					</p>				
+				</div>
+			</a>
+
+			<footer>
+				<div class="reseaux">
+					<div class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1.6s"><a class="facebook" href="">Facebook</a></div>
+
+					<div class="wow fadeInUp espaceReseaux" class="espaceReseaux" data-wow-duration=".5s" data-wow-delay="1.7s"><a class="twitter" href="">Twitter</a></div>
+
+					<div class="wow fadeInUp" data-wow-duration=".8s" data-wow-delay="1.8s"><a class="instagram" href="">Instagram</a></div>
+				</div>
+
+				<p class="legals">Ciprian C. © All rights reserved.</p>
+			</footer>
+		</div>
+
+	</body>
+
+
+	<!-- Smooth Scroll-->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="../js/script.js"></script>
+
+	<!-- WOW.js-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="../js/WOW.js"></script>
+
+	<!-- Bootstrap -->
+	<script src="/js/bootstrap.js"></script>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+

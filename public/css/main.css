@@ -1,0 +1,1411 @@
+html, html a {
+	-webkit-font-smoothing: antialiased !important;
+}
+
+/* Selection color */
+::-moz-selection {
+	background-color: #F3C8DC;
+	color: white;
+}
+::selection {
+	background-color: #F3C8DC;
+	color: white;
+}
+
+@font-face {
+	font-family: 'BondarOffice-Bold';
+	src: url(../webfonts/BondarOffice-Bold.WOFF) format('woff');
+}
+
+@font-face {
+	font-family: 'BondarOffice-Regular';
+	src: url(../webfonts/BondarOffice-Regular.WOFF) format('woff');
+}
+
+@font-face {
+	font-family: 'Casia';
+	src: url(../webfonts/Casia-Italic.WOFF) format('woff');
+}
+ 
+@font-face {
+	font-family: 'PlayfairDisplay';
+	src: url(../webfonts/PlayfairDisplay-Italic.WOFF) format('woff');
+}
+
+html, body {
+	margin: 0px;
+
+	background-color: #001244;
+	transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+	font-size: 1vw;
+}
+
+p {
+	font-family: 'BondarOffice-Regular', sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 30px;
+	text-shadow: 0 0 6px rgba(0,0,0, 0.5);
+}
+
+div {
+	color: white;
+}
+
+.espace {
+	width: 95%;
+	height: calc(8vw - 50px);
+}
+
+h1 {
+	margin-top: -2%;
+
+	font-size: 10vw;
+	font-size: 10rem;
+	letter-spacing: -0.4rem;
+	font-family: BondarOffice-Bold;
+}
+
+h2 {
+	margin-top: -5px;
+	margin-left: -5px;
+
+	font-family: BondarOffice-Bold;
+	font-size: 4vw;
+	font-size: 4rem;
+	letter-spacing: -0.2rem;
+}
+
+h3 {
+	margin-top: 20.5%;
+
+	font-family: Casia;
+	font-weight: normal;
+	font-size: calc(50px + 2vw);
+	color: #F3C8DC;
+}
+
+h4 {
+	margin-top: calc(-8.6vw + 5px);
+	margin-bottom: 1px;
+
+	font-family: Casia;
+	font-weight: normal;
+	font-size: 2.01vw;
+	font-size: 2.01rem;
+	color: #F3C8DC;
+	letter-spacing: 0.035rem;
+	line-height: calc(2.5rem - 8px);
+}
+
+h5 {
+	margin-top: -47.5px;
+	margin-bottom: 1px;
+
+	font-family: Casia;
+	font-weight: normal;
+	font-size: 2.18rem;
+	color: #F3C8DC;
+	letter-spacing: -0.03rem;
+}
+
+h6 {
+	margin-top: calc(-60px - 2vw);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 55px;
+	width: 300px;
+
+	font-family: BondarOffice-Regular;
+	font-weight: normal;
+	font-size: 27px;
+	letter-spacing: 0.2px;
+}
+
+
+
+/* Tous les liens de la page */
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.read_more:hover, .view_project:hover, .get_in_touch:hover, .outsideLink:hover, .rectangle:hover {
+	background-color: #F3C8DC;
+	color: black;
+	box-shadow: 
+		-0px -6px 30px rgba(82, 212, 255, 0.60), 0px 6px 30px rgba(255, 125, 125, 0.60),
+		-0px -3px 5px rgba(82, 212, 255, 0.60), 0px 3px 5px rgba(255, 125, 125, 0.60);
+	transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.read_more:active, .view_project:active, .get_in_touch:active, .outsideLink:active, .rectangle:active {
+	background-color: transparent;
+	color: white;
+}
+
+
+/* button hero */
+.read_more {
+	border: 1px #F3C8DC solid;
+	border-radius: 20px;
+	padding: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	font-family: BondarOffice-Regular;
+	font-style: normal;
+	font-size: 15px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+
+	transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+/* buton hero */
+
+/* View project */
+.view_project {
+	border: 1px #F3C8DC solid;
+	border-radius: 20px;
+	padding: 5px;
+	padding-left: 27px;
+	padding-right: 27px;
+	padding-top: 10px;
+	font-family: BondarOffice-Regular;
+	font-size: 13px;
+	letter-spacing: 3px;
+	z-index: 1;
+	transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+	text-transform: uppercase;
+	position: absolute;
+}
+/* View project */
+
+/* Get in touch */
+.get_in_touch {
+	margin-left: -1px;
+
+	border: 1px #F3C8DC solid;
+	border-radius: 20px;
+	padding: 5px;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	font-family: BondarOffice-Regular;
+	font-style: normal;
+	font-size: 15px;
+	letter-spacing: 3px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+/* Get in touch */
+
+/*rectangle*/
+.div_rectangle {
+	text-align: center;
+	max-width: 100%;
+	margin-top: 7vw;
+	margin-bottom: 7vw;
+}
+
+.rectangle {
+	border: 1px #F3C8DC solid;
+	border-radius: 20px;
+	padding: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	font-family: BondarOffice-Regular;
+	font-style: normal;
+	font-size: 15px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+
+	transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+/*rectangle*/
+
+/* reseaux */
+.facebook:hover, .twitter:hover, .instagram:hover {
+	letter-spacing: 7px;
+	text-shadow: 
+		-0px -6px 20px rgba(82, 212, 255, 1), 0px 6px 20px rgba(255, 125, 125, 1),
+		-0px -3px 5px rgba(82, 212, 255, 1), 0px 3px 5px rgba(255, 125, 125, 1);
+	transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.facebook {
+	float: left;
+	width: 150px;
+
+	letter-spacing: 5px;
+	transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.twitter {
+	letter-spacing: 5px;
+	transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.instagram {
+	float: right;
+	width: 150px;
+
+	letter-spacing: 5px;
+	transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+/* Tous les liens de la page */
+
+
+/*------------1. Navbar--------------*/
+/*-----------------------------------------------Bootstrap Overrides - Hamburger Menu*/
+	
+	.navbar {
+		margin-top: 20px;
+		margin-bottom: 0px;
+		width: 100%;
+	}
+
+	.navbar-default {
+		background-color: transparent;
+		border-color: transparent;
+		position: fixed;
+	}
+
+	.navbar-brand {
+		width: 200px;
+	}
+
+	.container-fluid {
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+
+	.navbar-default .navbar-nav > li > a {
+		margin-left: 20px;
+		color: white;
+		opacity: 0.9;
+		font-size: 13px;
+		font-family: BondarOffice-Bold;
+		letter-spacing: 5px;
+		transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+		text-transform: uppercase;
+	}
+
+	.navbar-default .navbar-nav > li > a:hover {
+		color: white;
+		opacity: 1;
+		text-shadow: -0px -6px 20px #52D3FF, 0px 6px 20px #FF7D7D, -0px -3px 5px #52D3FF, 0px 3px 5px #FF7D7D;
+		transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+
+	.interdit {
+		cursor: no-drop;
+	}
+
+/*-----------------------------------------------------Animation Menu*/
+
+	.navbar-toggle {
+	  border: none;
+	  background: transparent !important;
+	}
+	.navbar-toggle:hover {
+	  background: transparent !important;
+	}
+	.navbar-toggle .icon-bar {
+	  width: 22px;
+	  transition: all 0.2s;
+	}
+	.navbar-toggle .top-bar {
+	  transform: rotate(45deg);
+	  transform-origin: 10% 10%;
+	}
+	.navbar-toggle .middle-bar {
+	  opacity: 0;
+	}
+	.navbar-toggle .bottom-bar {
+	  transform: rotate(-45deg);
+	  transform-origin: 10% 90%;
+	}
+	.navbar-toggle.collapsed .top-bar {
+	  transform: rotate(0);
+	}
+	.navbar-toggle.collapsed .middle-bar {
+	  opacity: 1;
+	}
+	.navbar-toggle.collapsed .bottom-bar {
+	  transform: rotate(0);
+	}
+/*------*/
+
+
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: white;
+	}
+
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border-color: transparent;
+	}
+
+	.navbar-collapse {
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+
+	.navbar-default .navbar-nav > li > a {
+		text-align: center;
+	}
+
+	* {
+		box-sizing: inherit;
+	}
+
+	.logo_design p {
+		margin-top: calc(1vw + 10px);
+		margin-bottom: calc(1vw + 10px);
+	}
+
+	.website p {
+		margin-top: 1vw;
+		margin-bottom: 1vw;
+	}
+
+	.branding p {
+		margin-top: 1vw;
+		margin-bottom: 1vw;
+	}
+
+	.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: inherit;
+	}
+	/*------------1. Navbar--------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------*/
+
+			/*Page d'accueuil "What if"*/
+
+/*-----------------------------------------------------*/
+
+
+/* 2. What if */
+header {
+	max-width: 100%;
+	height: 100vh;
+
+	background-size: cover;
+	background-position: right;
+	background-position: bottom;
+	background-image: url("../img/hero.jpg");
+}
+
+header div {
+	float: left;
+	margin-top: calc(6vw + 200px);
+	margin-bottom: 200px;
+	margin-left: 15.3vw;
+	width: 95ch;
+}
+
+header h4 span {
+	font-family: PlayfairDisplay;
+}
+
+header div img {
+	margin-top: calc(10px + 1vw);
+	margin-bottom: 0.5vw;
+	width: 50px;
+}
+
+header p span {
+	font-family: BondarOffice-Bold;
+}
+
+.crayons {
+	width: 0;
+}
+
+.br2 {
+	display: none;
+}
+
+/* 2. What if */
+
+
+
+/* 3. Principes */
+#why {
+	margin-right: auto;
+	margin-left: auto;
+	width: 500px;
+	padding-top: 100px;
+}
+
+#why img {
+	margin-top: 8px;
+	margin-left: 225px;
+	width: 40px;
+	height: 80px;
+
+	z-index: -4;
+}
+
+#why p {
+	margin-top: -55px;
+
+	text-align: center;
+	text-transform: uppercase;
+	color: #C8E8F3;
+	font-family: BondarOffice-Bold, sans-serif;
+	font-size: 16px;
+	letter-spacing: 4.5px;
+}
+
+.principes {
+	margin-right: auto;
+	margin-bottom: 150px;
+	margin-left: auto;
+	width: 72%;
+	min-width: 910px;
+	max-width: 1400px;
+
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+}
+
+.principes div {
+	max-width: 360px;
+	min-width: 210px;
+
+	text-align: center;
+	padding: 6px;
+}
+
+.principes div p {
+	margin-top: -30px;
+}
+/* 3. Principes */
+
+
+/* 4. Logo Design */
+.logo_design {
+	margin-right: auto;
+	margin-left: auto;
+	min-width: 850px;
+	width: 80%;
+}
+
+.logo_design h5 {
+	margin-top: calc(10px - 4.2vw);
+}
+
+.logo_design div {
+	position: absolute;
+	margin-top: 4.9%;
+	margin-left: 5.5vw;
+	width: calc(490px + 4vw);
+}
+
+.logo_design p {
+	margin-top: 1.5vw;
+	margin-bottom: 2.2vw;
+}
+
+.fabiola {
+	float: right;
+	margin-right: 1.7%;
+	width: 46%;
+
+	z-index: -4;
+}
+
+.b {
+	float: right;
+	margin-top: 18.4%;
+	margin-right: -44.2%;
+	width: 13.4%;
+
+	z-index: -5;
+
+}
+
+.s {
+	float: right;
+	margin-top: 18.4%;
+	margin-right: -9.7%;
+	width: 10.8%;
+	
+	z-index: -2;
+}
+
+.cd {
+	margin-top: -16.8%;
+	margin-left: 59%;
+	width: 31.6%;
+}
+
+/* 4. Logo Design */
+
+
+/* 5. Website */
+.website {
+	margin-right: auto;
+	margin-left: auto;
+	min-width: 850px;
+	width: 80%;
+}
+
+.macbook {
+	margin-top: 10.2%;
+	margin-left: -61%;
+	width: 52%;
+
+	z-index: -2;
+}
+
+.tedx {
+	float: left;
+	margin-left: 15%;
+	width: 52%;
+
+	z-index: -4;
+}
+
+.ipad {
+	float: left;
+	margin-top: -25.5%;
+	margin-left: 32%;
+	width: 29%;
+
+	z-index: -2;
+}
+
+.iphone {
+	margin-top: -19%;
+	margin-left: 40.5%;
+	width: 26%;
+}
+
+.bloc {
+	float: right;
+	margin-top: -40%;
+	width: calc(460px + 1vw);
+}
+
+.z {
+	margin-top: calc(-12px - 3vw);
+	margin-left: -4px;
+
+	font-family: BondarOffice-Regular;
+	font-size: calc(20px + 0.4vw);
+}
+
+.z span {
+	color: red;
+	font-family: BondarOffice-Bold;
+}
+
+.website p {
+	margin-top: 2vw;
+	margin-bottom: 2.6vw;
+}
+/* 5. Website */
+
+
+
+/* 6. Visual Identity */
+.branding {
+	margin-right: auto;
+	margin-left: auto;
+	min-width: 850px;
+	width: 80%;
+}
+
+.branding div{
+	position: absolute;
+	margin-top: 4.4%;
+	margin-left: 5.7%;
+	width: calc(490px + 7vw);
+}
+
+.branding h5 {
+	margin-top: calc(10px - 4.6vw);
+	margin-left: -4px;
+}
+
+.branding p {
+	margin-top: 2vw;
+	margin-bottom: 2.8vw;
+}
+
+.animation {
+	float: right;
+	margin-top: 25.3%;
+	margin-right: 2.4%;
+	width: 41.5%;
+
+	z-index: -4;
+}
+
+.unamur {
+	float: right;
+	margin-top: -42.7%;
+	margin-right: 9.4%;
+	width: 58%;
+
+	z-index: -2;
+}
+
+.cartes {
+	margin-top: -10.4%;
+	margin-left: 47.7%;
+	width: 30%;
+
+	z-index: -2;
+}
+
+/* 6. Visual Identity */
+
+
+
+/* 7. Let's make something great */
+.shadow-bottom {
+	margin-top: 100px;
+	max-width: 100%;
+
+	background-image: linear-gradient(0deg, #002879 12%, rgba(0,17,68,0.00) 97%);
+}
+
+.let {
+	padding-bottom: 3vw;
+	margin-right: auto;
+	margin-bottom: 5vw;
+	margin-left: auto;
+	max-width: calc(500px + 18.5vw);
+	background-image: url(../img/crayon@2x.png);
+  	background-repeat: no-repeat;
+  	background-size: contain;
+
+	display: flex;
+}
+
+.crayon {
+	float: left;
+	align-self: center;
+}
+
+.make {
+	margin-top: 2.7%;
+	margin-left: calc(100px + 3vw);
+	min-width: 15vw;
+}
+
+.make h2 {
+	line-height: calc(20px + 3vw);
+	margin-bottom: 35px;
+}
+
+.for {
+	margin-top: -1vw;
+	margin-left: -1px;
+}
+
+.br {
+	white-space: pre-line;
+}
+
+.how {
+	margin-top: 35px;
+	margin-left: 3px;
+
+	font-family: BondarOffice-Bold;
+	font-size: calc(15px + 0.15vw);
+	letter-spacing: 0.3px;
+}
+
+.ol {
+	margin-top: -12px;
+	margin-bottom: 35px;
+	margin-left: -13px;
+
+	font-family: BondarOffice-Bold;
+	font-size: calc(15px + 0.1vw);
+	line-height: calc(25px + 0.6vw);
+	color: #F3C8DC;
+}
+
+.ol span {
+	font-family: BondarOffice-Regular;
+	letter-spacing: 0.8px;
+	color: white;
+ }
+/* 7. Let's make something great */
+
+
+/*--------------------footer--------------------*/
+footer {
+	text-align: center;
+	color: white;
+	font-family: BondarOffice-Regular;
+}
+
+.reseaux {
+	margin-right: auto;
+	margin-bottom: 3vw;
+	margin-left: auto;
+	width: 450px;
+
+	text-transform: uppercase;
+	font-size: 14px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.legals {
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+/*--------------------footer--------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------*/
+
+				/*Radio Rectangle*/
+
+/*-----------------------------------------------------*/
+
+/*1.-----Hero-----*/
+.container-fluid {
+	position: relative;
+}
+
+.rectangleHero {
+	width: 100%;
+	height: 100vh;
+
+	background-image: url("../img/la-semaine-belge-hero.jpg");
+	background-size: cover;
+	background-position: center top -60px;
+	background-repeat: no-repeat;
+	background-position: 30%;
+}
+
+.projectHero {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 85%;
+	text-align: center;
+}
+
+.titleHero {
+	color: white;
+	font-size: calc(2rem + 25px);
+	text-shadow: 0 0 6px rgba(0,0,0, 0.5);
+}
+
+h5 span {
+	font-family: PlayfairDisplay;
+}
+
+.sousTitreHero {
+	text-transform: uppercase;
+	width: auto;
+	letter-spacing: 5px;
+	font-size: calc(0.5rem + 10px);
+	margin-top: calc(1rem + 10px);
+	text-shadow: 0 0 6px rgba(0,0,0, 0.5);
+}
+/*1.-----Hero-----*/
+
+
+
+/*2.-----powder-----*/
+.row {
+	width: 70%;
+	max-width: 1400px;
+	min-width: 760px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.powder {
+	 margin-top: calc(10px + 3vw);
+	 display: inline;
+	 float: left;
+	 width: 35vw;
+	 max-width: 700px;
+	 min-width: 400px;
+}
+
+.client {
+	position: absolute;
+	z-index: 1;
+	width: 380px;
+	margin-top: 5vw;
+	margin-left: 40vw;
+}
+
+.client h2 {
+	margin-bottom: -10px;
+	font-size: 30px;
+	letter-spacing: normal;
+}
+
+.client p {
+	margin-bottom: 50px;
+}
+/*2.-----powder-----*/
+
+
+
+/*3.-----The-logo-----*/
+.modern {
+	width: 450px;
+	display: inline;
+	float: left;
+	margin-left: 0;
+	z-index: 1;
+}
+
+.blue {
+	margin-bottom: 1.5vw;
+	font-family: Casia-Italic;
+	font-style: italic;
+	font-size: calc(15px + 1vw);
+	letter-spacing: -0.5px;
+	color: #2cd7d0;
+}
+
+.description_text {
+	margin-top: -1.5vw;
+}
+
+.logo-lsb {
+	font-family: Casia-Italic;
+	margin-left: -90%;
+	width: 40vw;
+	max-width: 800px;
+	min-width: 500px;
+	display: inline;
+	float: right;
+}
+
+.logo-lsb2 {
+	max-width: 90%;
+	margin-left: 2.5%;
+}
+/*3.-----The-logo-----*/
+
+
+
+/*4.-----Printed-stuff-----*/
+.printed1 {
+	width: 20%;
+	float: left;
+	transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.printed1:hover {
+	width: 25%;
+	transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.printed2 {
+	width: 25%;
+	float: left;
+	margin-left: -5%;
+	margin-top: 14%;
+	transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.printed2:hover {
+	width: 30%;
+	transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.printed3 {
+	width: 20%;
+	float: left;
+	margin-left: -7%;
+	margin-top: 31%;
+	transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.printed3:hover {
+	width: 25%;
+	transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.whatnot {
+	position: relative;
+	z-index: 5;
+	width: 540px;
+	float: right;
+	margin-left: -80%;
+
+}
+/*4.-----Printed-stuff-----*/
+
+
+
+
+
+
+
+/*-----Liens vers d'autres pages-----*/
+.a_better_version_of_yourself {
+	margin-bottom: 7vw;
+	margin-left: -0.2vw;
+	width: 50%;
+	height: 7vw;
+	float: left;
+	text-align: center;
+	background-image: url("../img/tedx-footer.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 110%;
+	transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.demain_awards {
+	margin-bottom: 7vw;
+	width: 50%;
+	height: 7vw;
+	float: right;
+	text-align: center;
+	background-image: url("../img/demain-footer.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 110%;
+	transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.a_better_version_of_yourself:hover, .a_better_version_of_yourself-Right:hover, .demain_awards:hover, .la_semaine_belge:hover {
+	background-size: 100%;
+	transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.h4_more_projects {
+	margin-top: 4%;
+	color: white;
+	font-size: 2vw;
+	text-shadow: 0 0 6px rgba(0,0,0, 0.5);
+}
+
+.p_more_projects {
+	margin-top: 0;
+	font-size: 1.3vw;
+	text-shadow: 0 0 4px rgba(0,0,0, 0.5);
+}
+/*-----Liens vers d'autres pages-----*/
+
+
+
+
+
+/*Hamburger Bootstrap masqué*/
+.navbar-toggle.collapsed {
+	visibility: hidden;
+}
+
+.toggle-button {
+	visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------*/
+
+				/*TedXUnamur*/
+
+/*-----------------------------------------------------*/
+
+
+.tedxHero {
+	width: 100%;
+	height: 100vh;
+
+	background-image: url("../img/hero-tedxunamur.jpg");
+	background-size: cover;
+	background-position: center top -60px;
+	background-repeat: no-repeat;
+	background-position-y: 70%;
+}
+
+.animation-sticker {
+	 margin-top: calc(10px + 1vw);
+	 margin-left: 5vw;
+	 display: inline;
+	 float: left;
+	 width: 17vw;
+	 max-width: 700px;
+	 min-width: 300px;
+}
+
+.classic {
+	position: absolute;
+	width: 580px;
+	display: inline;
+	margin-top: 4%;
+	margin-left: 0;
+	z-index: 1;
+}
+
+.rouge {
+	margin-bottom: 1.5vw;
+	font-family: Casia-Italic;
+	font-style: italic;
+	font-size: calc(15px + 1vw);
+	letter-spacing: -0.5px;
+	color: #ff2b06;
+}
+
+
+.tedx-event {
+	margin-left: -90%;
+	width: 70vw;
+	max-width: 1000px;
+	min-width: 500px;
+	display: flex;
+	float: right;
+}
+
+.tedx--ipad {
+	width: 30%;
+	margin-top: 16%;
+	margin-left: 26%;
+	float: left;
+
+	z-index: -2;
+}
+
+.tedx--macbook {
+	width: 50%;
+	float: left;
+	margin-left: -55%;
+	margin-top: 6%;
+
+	z-index: -3;
+}
+
+.tedx--iphone {
+	width: 25%;
+	float: left;
+	margin-left: -22%;
+	margin-top: 23%;
+}
+
+.responsive {
+	position: relative;
+	z-index: 5;
+	width: 500px;
+	float: right;
+	margin-left: -99%;
+
+}
+
+.tedx-goodies {
+	margin-top: 10%;
+	margin-left: -90%;
+	width: 40vw;
+	max-width: 1000px;
+	min-width: 500px;
+	display: inline;
+	float: right;
+}
+
+.tedx-computer {
+	width: 45%;
+	margin-top: 100px;
+	margin-left: 29.7vw;
+}
+
+.video--tedx {
+	float: left;
+	margin-top: -24.6vw;
+	margin-left: 32.95vw;
+	width: 34.6%;
+	height: 20vw;
+}
+
+.la_semaine_belge {
+	margin-bottom: 7vw;
+	margin-left: -0.2vw;
+	width: 50%;
+	height: 7vw;
+	float: left;
+	text-align: center;
+	background-image: url("../img/lasemainebelge-footer.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 110%;
+	transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------*/
+
+				/*Demain*/
+
+/*-----------------------------------------------------*/
+
+
+
+
+.demainHero {
+	width: 100%;
+	height: 100vh;
+
+	background-image: url("../img/demain-hero.jpg");
+	background-size: cover;
+	background-position: center top -60px;
+	background-repeat: no-repeat;
+	background-position-y: 70%;
+	background-position-x: right;
+}
+
+.demain-fleur {
+	margin-top: calc(-8vw + 100px);
+	margin-right: -100%;
+	display: inline;
+	float: left;
+	width: 90%;
+	max-width: 1200px;
+	min-width: 400px;
+}
+
+.green {
+	margin-bottom: 1.5vw;
+	font-family: Casia-Italic;
+	font-style: italic;
+	font-size: calc(15px + 1vw);
+	letter-spacing: -0.5px;
+	color: #9dd26d;
+}
+
+.demain-ceremony {
+	margin-left: -90%;
+	width: 70vw;
+	max-width: 1000px;
+	min-width: 500px;
+	display: inline;
+	float: right;
+}
+
+.animation-ecrans-demain {
+	display: inline;
+	float: left;
+	width: 42vw;
+	max-width: 900px;
+	min-width: 400px;
+	margin-left: -100px;
+}
+
+.alive {
+	position: absolute;
+	margin-left: 42vw;
+	z-index: 1;
+	width: 520px;
+}
+
+.demain-on-paper {
+	margin-top: 2.5%;
+	margin-left: -90%;
+	width: 40vw;
+	max-width: 1000px;
+	min-width: 500px;
+	display: inline;
+	float: right;
+}
+
+.a_better_version_of_yourself-Right {
+	margin-bottom: 7vw;
+	margin-left: -0.2vw;
+	width: 50%;
+	height: 7vw;
+	float: right;
+	text-align: center;
+	background-image: url("../img/tedx-footer.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 110%;
+	transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

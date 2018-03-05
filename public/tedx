@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Ciprian Ciobanasu • Visual Designer</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+		<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+<!-- 	<link rel="stylesheet" type="text/css" href="/css/bootstrap-theme.css"> -->
+
+		<link rel="stylesheet" href="/css/overlay.css">
+
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+
+		<link rel="stylesheet" type="text/css" href="/css/tablet.css">
+
+		<link rel="stylesheet" type="text/css" href="/css/smartphone.css">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body id="overrides">
+		<!-- 1. Navbar Desktop-->
+		<div class="wow fadeIn">
+			<nav class="navbar navbar-default">
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar top-bar"></span>
+			        <span class="icon-bar middle-bar"></span>
+			        <span class="icon-bar bottom-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="http://ciobanasu.be">
+			      	<img alt="Logo" src="/img/ciprian ciobanasu vi.svg">
+			      </a>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-right">
+			        <li><a href="#"><div class="interdit">lab</div></a></li>
+			        <li><a href="http://ciobanasu.be/#work">work</a></li>
+			        <li><a href="http://ciobanasu.be/#contact">contact</a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		</div>
+		<!-- 1. Navbar Desktop-->
+
+
+
+		<!-- 1. Navbar-Mobile-->
+		<nav class="overlay" id="overlay">
+		  <ul>
+		    <li><a href="http://ciobanasu.be">Lab</a></li>
+		    <li><a href="http://ciobanasu.be/#work">Work</a></li>
+		    <li><a href="http://ciobanasu.be/#contact">Contact</a></li>
+		  </ul>
+		</nav>
+
+		<div class="navbar-header">
+		  <div class="toggle-button" id="toggle">
+		    <span class="bar top"></span>
+		    <span class="bar middle"></span>
+		    <span class="bar bottom"></span>
+		  </div>
+		</div>
+		<!-- 1. Navbar Mobile-->
+
+
+
+
+		<div class="tedxHero">
+			<div class="projectHero">
+				<h5 class="wow fadeInUp titleHero" data-wow-duration=".5s" data-wow-delay=".2s">A better version of yourself</h5>
+				<h6 class="wow fadeInUp sousTitreHero" data-wow-duration=".5s" data-wow-delay=".4s">webdesign & visual identity</h6>
+			</div>
+		</div>
+
+		<div class="espace"></div>
+		
+		<div class="row">
+			<img class="wow fadeInUp animation-sticker hidden-xs" data-wow-duration=".5s" data-wow-delay=".2s" src="../img/animation-sticker.gif">
+
+			<div class="client">
+				<div class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".4s">
+					<h2>Client</h2>
+					<p>
+						TEDxUNamur is an independent organisation <br>
+						aiming to spark deep conversation at a local <br>
+						level and for the first time in Namur town.
+					</p>
+				</div>
+
+				<div class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
+					<h2>Services</h2>
+					<p>
+						I've enjoyed designing the website and <br>
+						visual identity for TEDxUNamur to launch <br>
+						and promote the freshly-born event.
+					</p>
+				</div>
+
+				<div class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".6s">
+					<h2>Team</h2>
+					<p>
+						Anaïs Tallon, Khadija Ben Hamouda, <br>
+						Lina Temimi, Marie-Aline Fauville, <br>
+						Ciprian Ciobanasu
+					</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="espace"></div>
+
+		<div class="row">
+			<img class="animation-sticker2 col-xs-6 col-xs-offset-3 hidden-sm hidden-md hidden-lg" src="../img/animation-sticker.gif">
+		</div>
+
+		<div class="row">
+			<div class="classic">
+				<p class="wow fadeInUp rouge" data-wow-duration=".5s" data-wow-delay=".4s">
+					— Ideas worth spreading
+				</p>
+
+				<h2 class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
+					The event
+				</h2>
+
+				<p class="wow fadeInUp description_text" data-wow-duration=".5s" data-wow-delay=".6s">
+					TEDx events are about local speakers presenting to <br class="br1"> local audiences about everything from politics to <br class="br1">pollination. About "ideas worth spreading".
+				</p>				
+			</div>
+			
+			<img class="wow fadeInUp tedx-event hidden-xs" data-wow-duration=".5s" data-wow-delay=".5s" src="../img/tedx-event.png">
+		</div>
+
+		<div class="espace"></div>
+
+		<div class="row">
+			<div class="responsive">
+				<p class="wow fadeInUp rouge" data-wow-duration=".5s" data-wow-delay=".9s">
+					— Responsive, baby
+				</p>
+
+				<h2 class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
+					Website
+				</h2>
+
+				<p class="wow fadeInUp description_text" data-wow-duration=".5s" data-wow-delay="1.1s">
+					Ever loved spending time buying tickets and getting <br class="br1">all that info you need? I feel you. The website makes <br class="br1">the experience as smooth as Casanova's charm.
+				</p>
+			</div>
+
+			<img class="wow fadeInUp tedx--ipad" data-wow-duration=".5s" data-wow-delay=".4s" printed1" src="../img/ipad@2x.png">
+
+			<img class="wow fadeInUp tedx--macbook" data-wow-duration=".5s" data-wow-delay=".5s" src="../img/macbook@2x.png">
+
+			<img class="wow fadeInUp tedx--iphone" data-wow-duration=".5s" data-wow-delay=".6s" src="../img/iphone@2x.png">
+		</div>
+
+		<div class="espace"></div>
+
+		<div class="row">
+			<div class="modern col-sm-3 col-sm-offset-0 col-md-3 col-md-offset-2">
+				<p class="wow fadeInUp rouge" data-wow-duration=".5s" data-wow-delay=".4s">
+					— One more thing
+				</p>
+
+				<h2 class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
+					Goodies
+				</h2>
+
+				<p class="wow fadeInUp description_text" data-wow-duration=".5s" data-wow-delay=".6s">
+					Yes, we do the icing on the cake: slides, videos, <br class="br1">posters, stickers, brochures, you name it.<br class="br1">
+					In short, there's not a lot we <i>can't</i> do.
+				</p>			
+			</div>
+
+			<img class="wow fadeInUp tedx-goodies hidden-xs" class="" data-wow-duration=".5s" data-wow-delay=".5s" src="../img/tedx-goodies.png">
+		</div>
+
+		<div class="div_tedx-goodies2">
+			<img class="tedx-goodies2 hidden-sm hidden-md hidden-lg" data-wow-duration=".5s" data-wow-delay=".5s" src="../img/tedx-goodies.png">
+		</div>
+
+		<div class="espace"></div>
+
+		<div class="div_tedx-computer">
+			<img class="tedx-computer" src="../img/tedx-computer.png">
+
+			<video class="video--tedx" src="../videos/video-tedxunamur.mov" autoplay loop></video>
+		</div>
+
+		<div class="shadow-bottom">
+			<div class="div_rectangle">
+				<a class="rectangle" href="http://tedxunamur.com" target="_blanc">visit tedxunamur.com</a>
+			</div>
+
+			<a href="radiorectangle">
+				<div class="la_semaine_belge">
+					<h4 class="h4_more_projects">
+						La Semaine Belge
+					</h4>
+
+					<p class="p_more_projects">
+						Radio Rectangle
+					</p>
+				</div>
+			</a>
+
+			<a href="demain">
+				<div class="demain_awards">
+					<h4 class="h4_more_projects">
+						Demain • DHC Awards
+					</h4>
+
+					<p class="p_more_projects">
+						Université de Namur
+					</p>				
+				</div>
+			</a>
+
+			<footer>
+				<div class="reseaux">
+					<div class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1.6s"><a class="facebook" href="">Facebook</a></div>
+
+					<div class="wow fadeInUp espaceReseaux" class="espaceReseaux" data-wow-duration=".5s" data-wow-delay="1.7s"><a class="twitter" href="">Twitter</a></div>
+
+					<div class="wow fadeInUp" data-wow-duration=".8s" data-wow-delay="1.8s"><a class="instagram" href="">Instagram</a></div>
+				</div>
+
+				<p class="legals">Ciprian C. © All rights reserved.</p>
+			</footer>
+		</div>
+
+	</body>
+
+
+	<!-- Smooth Scroll-->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="../js/script.js"></script>
+
+	<!-- WOW.js-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="../js/WOW.js"></script>
+
+	<!-- Bootstrap -->
+	<script src="/js/bootstrap.js"></script>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+

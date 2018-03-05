@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Ciprian Ciobanasu • Visual Designer</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+		<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+<!-- 	<link rel="stylesheet" type="text/css" href="/css/bootstrap-theme.css"> -->
+
+		<link rel="stylesheet" href="/css/overlay.css">
+
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+
+		<link rel="stylesheet" type="text/css" href="/css/tablet.css">
+
+		<link rel="stylesheet" type="text/css" href="/css/smartphone.css">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body id="overrides">
+		<!-- 1. Navbar Desktop-->
+		<div class="wow fadeIn">
+			<nav class="navbar navbar-default">
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar top-bar"></span>
+			        <span class="icon-bar middle-bar"></span>
+			        <span class="icon-bar bottom-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="http://ciobanasu.be">
+			      	<img alt="Logo" src="/img/ciprian ciobanasu vi.svg">
+			      </a>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-right">
+			        <li><a href="#"><div class="interdit">lab</div></a></li>
+			        <li><a href="#work">work</a></li>
+			        <li><a href="#contact">contact</a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		</div>
+		<!-- 1. Navbar Desktop-->
+
+
+
+		<!-- 1. Navbar-Mobile-->
+		<nav class="overlay" id="overlay">
+		  <ul>
+		    <li><a href="#">Lab</a></li>
+		    <li><a href="http://ciobanasu.be/#work">Work</a></li>
+		    <li><a href="http://ciobanasu.be/#contact">Contact</a></li>
+		  </ul>
+		</nav>
+
+		<div class="navbar-header">
+		  <div class="toggle-button" id="toggle">
+		    <span class="bar top"></span>
+		    <span class="bar middle"></span>
+		    <span class="bar bottom"></span>
+		  </div>
+		</div>
+		<!-- 1. Navbar Mobile-->
+
+
+
+
+		<div class="rectangleHero">
+			<div class="projectHero">
+				<h5 class="wow fadeInUp titleHero" data-wow-duration=".5s" data-wow-delay=".2s">Honor <span>&</span> Synthesizers</h5>
+				<h6 class="wow fadeInUp sousTitreHero" data-wow-duration=".5s" data-wow-delay=".4s">logo design & visual identity</h6>
+			</div>
+		</div>
+
+		<div class="espace"></div>
+		
+		<div class="row">
+			<img class="wow fadeInUp powder hidden-xs" data-wow-duration=".5s" data-wow-delay=".2s" src="../img/powder.png">
+
+			<div class="client">
+				<div class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".4s">
+					<h2>Client</h2>
+					<p>
+						Radio Rectangle is a first of its kind <br>
+						webradio from Belgium, delivering premium <br>
+						pop & underground music podcasts.
+					</p>
+				</div>
+
+				<div class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
+					<h2>Services</h2>
+					<p>
+						La Semaine Belge explores the Belgian <br>
+						musical lanscapes and needs a logo and<br>
+						visual identity to match its wackyness. 
+					</p>
+				</div>
+
+				<div class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".6s">
+					<h2>Team</h2>
+					<p>
+						Nam-Quang Goossens, Meriem Sioux,<br>
+						Marie Debouche, Javier Sotomayor, <br>
+						Ciprian Ciobanasu
+					</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="espace"></div>
+
+		<div class="row">
+			<img class="powder2 col-xs-8 col-xs-offset-2 hidden-sm hidden-md hidden-lg" src="../img/powder.png">
+		</div>
+
+		<div class="row">
+			<div class="modern col-sm-3 col-sm-offset-0 col-md-3 col-md-offset-2">
+				<p class="wow fadeInUp blue" data-wow-duration=".5s" data-wow-delay=".4s">
+					— Classic is the new new
+				</p>
+
+				<h2 class="wow fadeInUp the_logo--h2" data-wow-duration=".5s" data-wow-delay=".5s">
+					The logo
+				</h2>
+
+				<p class="wow fadeInUp description_text" data-wow-duration=".5s" data-wow-delay=".6s">
+					We wanted to point out the event's love for contrasts, <br class="br1"> so here you go: on one side is a classic, baroque- <br class="br1"> inspired font. And the other comes from Lucky Luke.
+				</p>
+			</div>
+
+			<img class="wow fadeInUp logo-lsb col-sm-4 col-md-4 hidden-xs" data-wow-duration=".5s" data-wow-delay=".5s" src="../img/animation-la-semaine-belge.gif">
+		</div>
+
+		<div class="espace"></div>
+
+		<div class="row">	
+			<img class="logo-lsb2 col-sm-4 col-md-4 hidden-sm hidden-md hidden-lg" src="../img/animation-la-semaine-belge.gif">
+		</div>
+
+		<div class="row">
+
+			<div class="whatnot">
+				<p class="wow fadeInUp blue" data-wow-duration=".5s" data-wow-delay=".9s">
+					— And whatnot
+				</p>
+
+				<h2 class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
+					Printed stuff
+				</h2>
+
+				<p class="wow fadeInUp description_text" data-wow-duration=".5s" data-wow-delay="1.1s">
+					When not listening to their radio, we were working on<br class="br1"> their pimptastic posters. We searched for the perfect<br class="br1"> balance between royalty and avant-garde (we got it).
+				</p>
+			</div>
+
+			<img class="wow fadeInUp printed1" data-wow-duration=".5s" data-wow-delay=".4s" printed1" src="../img/printed1.png">
+
+			<img class="wow fadeInUp printed2" data-wow-duration=".5s" data-wow-delay=".5s" src="../img/printed2.png">
+
+			<img class="wow fadeInUp printed3" data-wow-duration=".5s" data-wow-delay=".6s" src="../img/printed3.png">
+		</div>
+
+		<div class="shadow-bottom">
+
+			<div class="div_rectangle">
+				<a class="wow fadeIn rectangle" data-wow-delay="1s" href="http://www.radiorectangle.be/fr/la-semaine-belge-4-glam-et-belge-une-fois.html" target="_blanc">LISTEN TO RADIO RECTANGLE</a>
+			</div>
+
+			<a href="tedx">
+				<div class="a_better_version_of_yourself">
+					<h4 class="h4_more_projects">
+						A better version of yourself
+					</h4>
+
+					<p class="p_more_projects">
+						TEDxUNamur
+					</p>
+				</div>
+			</a>
+
+			<a href="demain">
+				<div class="demain_awards">
+					<h4 class="h4_more_projects">
+						Demain • DHC Awards
+					</h4>
+
+					<p class="p_more_projects">
+						Université de Namur
+					</p>
+				</div>
+			</a>
+
+			<footer>
+				<div class="reseaux">
+					<div class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1.6s"><a class="facebook" href="">Facebook</a></div>
+
+					<div class="wow fadeInUp espaceReseaux" class="espaceReseaux" data-wow-duration=".5s" data-wow-delay="1.7s"><a class="twitter" href="">Twitter</a></div>
+
+					<div class="wow fadeInUp" data-wow-duration=".8s" data-wow-delay="1.8s"><a class="instagram" href="">Instagram</a></div>
+				</div>
+
+				<p class="legals">Ciprian C. © All rights reserved.</p>
+			</footer>
+		</div>
+
+	</body>
+
+
+	<!-- Smooth Scroll-->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="../js/script.js"></script>
+
+	<!-- WOW.js-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="../js/WOW.js"></script>
+
+	<!-- Bootstrap -->
+	<script src="/js/bootstrap.js"></script>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
